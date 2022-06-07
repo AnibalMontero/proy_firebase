@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Firebase</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+      <div
+        class="card text-white bg-transparent mb-6 offset-md-4 mt-3"
+        style="max-width: 20rem"
+      >
+        <div class="card-header bg-success">Formulario Tareas</div>
+        <div class="card-body">
+          <form id="task-form">
+            <input
+              type="text"
+              id="task-title"
+              class="form-control mb-2"
+              placeholder="Título de la tarea"
+              autofocus
+            />
+            <textarea
+              id="task-description"
+              class="form-control"
+              placeholder="Descripción de la tarea"
+              cols="10"
+              rows="5"
+            ></textarea>
+            <br />
+
+            <input
+              type="submit"
+              value="Enviar Tarea"
+              class="btn btn-lg btn-danger"
+              id="task-button"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+      <br />
+      <div class="alert alert-secondary text-center mt-5" role="alert">
+        <h3>LISTADO DE TAREAS EXISTENTES</h3>
+      </div>
+      
+    
+    </div>
+    </div>
+    <script src="utils.js" type="module" defer></script>
+    <script src="index.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  </body>
+</html>
